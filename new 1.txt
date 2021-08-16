@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<style>
+#more {display: none;}
+</style>
+</head>
+
+<body>
+	<h1><b>About UR Profile Tracker</b></h1>
+	<p>This site was developed by Student</p>
+	<p>Who still studying in University of Rwanda</p>
+	<p>Huye Campus in school of infomation communication and technolgy<b>(sofict)</b></p>
+	<p>In college of Science and Technology <b>(CST)</b></p>
+	<p>Department of Computer and Software Engineering</p>
+	<p>He Was starting to develop this site in 2021</p>
+	<p>while he was studying in level two or year two</p>
+	<br><h2>The Aim of This site</h2></br>
+	<p>The Student<span id="dots">...</span><span id="more">has the idea to solve the problem
+	happens in most time when one needs the numbers of their leadrers and unfortunatelly don't find them
+	because it was no easly to find them </span></p>
+	<button onclick="myFunction()" id="myBtn">read more</button>
+	<script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<style>
+#more {display: none;}
+</style>
+</head>
+
+<body>
+	<h1><b>About UR Profile Tracker</b></h1>
+	<p>This site was developed by Student</p>
+	<br>Who still studying in University of Rwanda</br>
+	<br>Huye Campus in school of infomation communication and technolgy<b>(sofict)</b></br>
+	<br>In college of Science and Technology <b>(CST)</b></br>
+	<br>Department of Computer and Software Engineering</br>
+	<br>He Was starting to develop this site in 2021</br>
+	<br>while he was studying in level two or year two</br>
+	<p><h2>The Aim of This site</h2></p>
+	<br>The Student<span id="dots">...</span><span id="more"><br>has the idea to solve the problem</br>
+	<br>happened in last time when one of university of Rwanda </br><br>Student needs the numbers of their leaders and unfortunatelly don't find them</br>
+	because it was no easly to find them <br>He use the web technology courses to develop this site</br><br>such as:Html,Css,Php and sql</br></span></br>
+	<button onclick="myFunction()" id="myBtn">read more</button>
+	<script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+</script>
+</body>
+</html>
